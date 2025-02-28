@@ -11,6 +11,7 @@ export class SavingAccount extends BankAccount{
     public applyInterest ():void{
          const interest = this.getBalance() * this.interestRate;
     this.deposit(interest);
+    
     }
 
 }

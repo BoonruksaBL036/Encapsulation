@@ -28,7 +28,7 @@ export class BankAccount {
         }
     }
     
-    getBalance(): number {
+    public getBalance(): number {
     return this.balance;
     }
 
