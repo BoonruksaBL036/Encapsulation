@@ -1,7 +1,7 @@
 export class BankAccount {
     private balance:number
     protected ownerName:string
-    readonly accountNumber:string
+    private readonly accountNumber:string
     
     
     constructor (accountNumber:string,balance:number,ownerName:string){
